@@ -1,3 +1,10 @@
 .text {
     text-align: center;
 }
+
+#number {
+    position: absolute;
+    bottom: 0%;
+    left: 98%;
+}
+
