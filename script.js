@@ -39,6 +39,6 @@ const { data, error } = await supabase
 
   if (error){ console.log(error) }
 
-if (data.lenght != 0){
+if (data.length != 0){
   message_output.textContent = data[0]["content"]
 }
